@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VangYOt96
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/7XTnzx9/IMG-20240927-WA0011.jpg";
 global.devs = "https://t.me/EmmyHenz";
 global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "https://t.me/EmmyHenz";
+global.owner = process.env.OWNER_NUMBER || "https://t.me/MolarWest9";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -35,7 +35,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "2349121785627,2349125042727";
+global.read_status_from = process.env.READ_STATUS_FROM || "2349155840891,2349123794986";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "3.0.0",
-  caption: process.env.CAPTION || "`EMMY_HENZ-V3™`",
-  author: process.env.PACK_AUTHER || "EMMY_HENZ-V3",
+  caption: process.env.CAPTION || "MOLAR_WEST™`",
+  author: process.env.PACK_AUTHER || "MOLAR_WEST",
   packname: process.env.PACK_NAME || "E M M Y",
-  botname: process.env.BOT_NAME || "EMMY_HENZ-V3",
-  ownername: process.env.OWNER_NAME || "Emmanuel Henshaw",
+  botname: process.env.BOT_NAME || "MOLAR_WEST",
+  ownername: process.env.OWNER_NAME || "MOLAR_WEST",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
